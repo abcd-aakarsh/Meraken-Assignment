@@ -1,0 +1,171 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "category": "Electronics",
+    "price": 99.99,
+    "image": "assets/headphones.webp",
+    "description": "High-quality wireless headphones with noise cancellation."
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch",
+    "category": "Electronics",
+    "price": 199.99,
+    "image": "assets/smartwatch.webp",
+    "description": "Stay connected on the go with this stylish smart watch."
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 59.99,
+    "image": "assets/speaker.webp",
+    "description": "Portable Bluetooth speaker with 360° sound."
+  },
+  {
+    "id": 4,
+    "name": "Laptop",
+    "category": "Electronics",
+    "price": 899.99,
+    "image": "assets/laptop.webp",
+    "description": "High-performance laptop with Intel Core i7 processor."
+  },
+  {
+    "id": 5,
+    "name": "Smartphone",
+    "category": "Electronics",
+    "price": 499.99,
+    "image": "assets/smartphone.webp",
+    "description": "Latest model with cutting-edge features and camera."
+  },
+  {
+    "id": 6,
+    "name": "Gaming Mouse",
+    "category": "Electronics",
+    "price": 39.99,
+    "image": "assets/gamingmouse.webp",
+    "description": "Ergonomic gaming mouse with customizable RGB lighting."
+  },
+  {
+    "id": 7,
+    "name": "External Hard Drive",
+    "category": "Electronics",
+    "price": 129.99,
+    "image": "assets/harddrive.webp",
+    "description": "1TB external hard drive with fast data transfer speed."
+  },
+  {
+    "id": 8,
+    "name": "Digital Camera",
+    "category": "Electronics",
+    "price": 549.99,
+    "image": "assets/camera.webp",
+    "description": "Capture stunning photos with this high-definition digital camera."
+  },
+  {
+    "id": 9,
+    "name": "Smart Home Hub",
+    "category": "Electronics",
+    "price": 149.99,
+    "image": "assets/homehub.webp",
+    "description": "Control all your smart devices with this convenient hub."
+  },
+  {
+    "id": 10,
+    "name": "Robot Vacuum",
+    "category": "Home",
+    "price": 299.99,
+    "image": "assets/vaccum.webp",
+    "description": "Efficient robot vacuum cleaner with smart navigation."
+  },
+  {
+    "id": 11,
+    "name": "Air Fryer",
+    "category": "Home",
+    "price": 89.99,
+    "image": "assets/airfryer.webp",
+    "description": "Cook crispy and delicious meals with less oil."
+  },
+  {
+    "id": 12,
+    "name": "Blender",
+    "category": "Home",
+    "price": 49.99,
+    "image": "assets/blender.webp",
+    "description": "Powerful blender for smoothies and shakes."
+  },
+  {
+    "id": 13,
+    "name": "Coffee Maker",
+    "category": "Home",
+    "price": 79.99,
+    "image": "assets/coffeemaker.webp",
+    "description": "Brew your perfect cup of coffee every time."
+  },
+
+  {
+    "id": 14,
+    "name": "Leather Jacket",
+    "category": "Clothing",
+    "price": 149.99,
+    "image": "assets/jacket.webp",
+    "description": "Stylish and durable leather jacket for all seasons."
+  },
+  {
+    "id": 15,
+    "name": "Summer Dress",
+    "category": "Clothing",
+    "price": 49.99,
+    "image": "assets/dress.webp",
+    "description": "Light and breezy dress perfect for hot summer days."
+  },
+  {
+    "id": 16,
+    "name": "Running Shoes",
+    "category": "Footwear",
+    "price": 79.99,
+    "image": "assets/shoes.webp",
+    "description": "Comfortable running shoes with superior grip."
+  },
+  {
+    "id": 17,
+    "name": "Sunglasses",
+    "category": "Accessories",
+    "price": 29.99,
+    "image": "assets/sunglasses.webp",
+    "description": "Stylish sunglasses with UV protection."
+  },
+  {
+    "id": 18,
+    "name": "Wool Sweater",
+    "category": "Clothing",
+    "price": 59.99,
+    "image": "assets/sweater.webp",
+    "description": "Cozy wool sweater for cold weather."
+  },
+  {
+    "id": 19,
+    "name": "Backpack",
+    "category": "Accessories",
+    "price": 49.99,
+    "image": "assets/bagpack.webp",
+    "description": "Spacious backpack with multiple compartments."
+  },
+  {
+    "id": 20,
+    "name": "Smartphone Case",
+    "category": "Accessories",
+    "price": 19.99,
+    "image": "assets/phonecase.webp",
+    "description": "Protect your smartphone with this sleek, durable case."
+  },
+  {
+    "id": 21,
+    "name": "T-Shirt",
+    "category": "Clothing",
+    "price": 19.99,
+    "image": "assets/tshirt.webp",
+    "description": "Comfortable and stylish T-shirt for everyday wear."
+  }
+]
