@@ -69,7 +69,7 @@ const ProductCatalog = () => {
 
   return (
     <div className="text-center">
-      <h2 className="text-[54px] mb-4 font-serif leading-tight">
+      <h2 className="md:text-[54px] text-[40px]  mb-4 font-serif leading-tight">
         Product Catalog
       </h2>
       {/* Search Section */}
@@ -79,13 +79,13 @@ const ProductCatalog = () => {
             name="search"
             value={searchText}
             placeholder="Enter Item Name"
-            className="border-2 border-gray-600 px-6 py-3 text-lg rounded-full min-w-[250px] w-full md:w-2/5"
+            className="border-2 border-gray-600 px-6 py-3 text-sm md:text-lg rounded-full min-w-[250px] w-full md:w-2/5"
             onChange={handleSearch}
           />
-          <div className="flex gap-2 justify-center">
+          <div className="flex gap-2 mt-2 md:mt-0 -mb-2 md:mb-0 justify-center">
             <button
               onClick={resetList}
-              className="px-8 text-center py-3 border-2 transition-all duration-100 border-[#B0802E] text-[#B0802E] hover:text-white hover:bg-[#B0802E] text-lg rounded-full"
+              className="px-8 text-center py-3 border-2 transition-all duration-100 border-[#B0802E] text-[#B0802E] hover:text-white hover:bg-[#B0802E] text-sm md:text-lg rounded-full"
             >
               Reset
             </button>
@@ -100,9 +100,9 @@ const ProductCatalog = () => {
             <button
               key={category}
               onClick={() => toggleCategory(category)}
-              className={`px-6 py-2 border-2 rounded-full ${
+              className={`px-6 py-2 text-sm md:text-lg border-2 rounded-full ${
                 selectedCategories.includes(category)
-                  ? "bg-gray-800 text-white"
+                  ? "bg-gray-800  text-white"
                   : "border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white"
               }`}
             >
@@ -116,7 +116,7 @@ const ProductCatalog = () => {
       <div className="flex justify-center gap-4 mb-6">
         <button
           onClick={() => handleSort("asc")}
-          className={`px-6 py-2 border-2 rounded-full ${
+          className={`px-6 py-2 border-2 text-sm md:text-lg rounded-full ${
             sortOrder === "asc"
               ? "bg-green-600 text-white"
               : "border-green-600 text-green-600 hover:bg-green-600 hover:text-white"

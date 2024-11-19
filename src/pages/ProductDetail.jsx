@@ -26,7 +26,7 @@ const ProductDetail = () => {
   };
 
   return (
-    <div className="py-6 px-[40px] lg:px-[80px] font-serif">
+    <div className="py-6 md:px-[40px] lg:px-[80px] font-serif">
       {/* Back Button */}
       <button
         onClick={() => navigate(-1)}

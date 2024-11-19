@@ -29,7 +29,7 @@ const Cart = () => {
             {cart.items.map((item) => (
               <div
                 key={item.id}
-                className="flex items-center border p-4 rounded-lg shadow-md"
+                className="flex flex-wrap items-center border p-4 rounded-lg shadow-md"
               >
                 <img
                   src={`/${item.image}`}
@@ -68,7 +68,7 @@ const Cart = () => {
               </div>
             ))}
           </div>
-          <div className="mt-6 text-center">
+          <div className="mt-6 text-center ">
             <h3 className="text-lg font-medium">
               Total Items: {cart.totalQuantity}
             </h3>
