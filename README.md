@@ -78,3 +78,14 @@ Follow the steps below to run this project locally.
    - Relies on lightweight frameworks like Tailwind CSS instead of comprehensive UI libraries like MaterialUI.
 
 
+## Challenges Faced
+1. Adding multiple category filter and sorting by price.
+2. Setting up redux store for cart.
+
+##AI Promts Used
+1. How to apply filtering options.
+2. How to setup redux store.
+
+   ### Homepage
+![Homepage Screenshot](public/assets/cart.png)
+
