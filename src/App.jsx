@@ -4,6 +4,7 @@ import AppLayout from "./ui/AppLayout";
 import Homepage from "./pages/Homepage";
 import ProductDetail from "./pages/ProductDetail";
 import PageNotFound from "./pages/PageNotFound";
+import ProductCatalog from "./pages/ProductCatalog";
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
         <Route element={<AppLayout />}>
           <Route index element={<Navigate replace to="/home" />} />
           <Route path="home" element={<Homepage />} />
-          <Route path="product/:slug" element={<ProductDetail />} />
+          <Route path="products" element={<ProductCatalog />} />
+          <Route path="products/:slug" element={<ProductDetail />} />
         </Route>
         <Route path="*" element={<PageNotFound />} />
       </Routes>
