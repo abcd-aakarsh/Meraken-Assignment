@@ -86,6 +86,11 @@ Follow the steps below to run this project locally.
 1. How to apply filtering options.
 2. How to setup redux store.
 
-   ### Homepage
-![Homepage Screenshot](public/assets/cart.png)
+   ### Screenshots
+![Homepage Screenshot](public/screenshot/1.png)
+![Homepage Screenshot](public/screenshot/2.png)
+![Product Screenshot](public/screenshot/3.png)
+![Cart Screenshot](public/screenshot/4.png)
+![Homepage Screenshot](public/screenshot/5.png)
+![MobileView Screenshot](public/screenshot/6.png)
 
